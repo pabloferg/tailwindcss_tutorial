@@ -1,17 +1,35 @@
 @tailwind base;
 @tailwind components;
 
-.btn{
-    @apply inline-block bg-red-800 text-white px-3 py-1 rounded-md shadow-lg uppercase tracking-wider font-semibold;
-}
-.btn:hover {
-    @apply bg-pink-600
+
+.btn {
+    @apply inline-block px-5 py-3 rounded-lg uppercase tracking-wider font-semibold;
+
 }
 .btn:focus {
-    @apply outline-none shadow-outline
-    
+    @apply outline-none shadow-outline;
+
 }
-.btn:active {
+
+
+.btn-green{
+    @apply bg-green-500 text-white;
+}
+.btn-green:hover {
+    @apply bg-pink-600
+}
+
+.btn-green:active {
+    @apply bg-yellow-500
+}
+
+.btn-red{
+    @apply bg-red-800 text-white;
+}
+.btn-red:hover {
+    @apply bg-pink-600
+}
+.btn-red:active {
     @apply bg-yellow-500
 }
 
