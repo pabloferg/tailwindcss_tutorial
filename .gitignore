@@ -11,6 +11,7 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+core.node.2091.1602616914
 
 # Editor directories and files
 .idea
